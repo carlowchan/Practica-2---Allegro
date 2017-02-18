@@ -5,8 +5,8 @@
 ## Debug
 ProjectName            :=Practica2
 ConfigurationName      :=Debug
-WorkspacePath          := "C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2"
-ProjectPath            := "C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2"
+WorkspacePath          := "C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2\Practica-2---Allegro"
+ProjectPath            := "C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2\Practica-2---Allegro"
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
@@ -91,7 +91,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.c$(ObjectSuffix): main.c $(IntermediateDirectory)/main.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/_carlos/cole/allegro/Projecte_Base_Windows/Practica2/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/_carlos/cole/allegro/Projecte_Base_Windows/Practica2/Practica-2---Allegro/main.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.c$(DependSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.c$(ObjectSuffix) -MF$(IntermediateDirectory)/main.c$(DependSuffix) -MM "main.c"
 
@@ -99,7 +99,7 @@ $(IntermediateDirectory)/main.c$(PreprocessSuffix): main.c
 	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.c$(PreprocessSuffix) "main.c"
 
 $(IntermediateDirectory)/LS_allegro.c$(ObjectSuffix): LS_allegro.c $(IntermediateDirectory)/LS_allegro.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/_carlos/cole/allegro/Projecte_Base_Windows/Practica2/LS_allegro.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/LS_allegro.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/_carlos/cole/allegro/Projecte_Base_Windows/Practica2/Practica-2---Allegro/LS_allegro.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/LS_allegro.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/LS_allegro.c$(DependSuffix): LS_allegro.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/LS_allegro.c$(ObjectSuffix) -MF$(IntermediateDirectory)/LS_allegro.c$(DependSuffix) -MM "LS_allegro.c"
 
@@ -107,7 +107,7 @@ $(IntermediateDirectory)/LS_allegro.c$(PreprocessSuffix): LS_allegro.c
 	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/LS_allegro.c$(PreprocessSuffix) "LS_allegro.c"
 
 $(IntermediateDirectory)/loadRanking.c$(ObjectSuffix): loadRanking.c $(IntermediateDirectory)/loadRanking.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/_carlos/cole/allegro/Projecte_Base_Windows/Practica2/loadRanking.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/loadRanking.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/_carlos/cole/allegro/Projecte_Base_Windows/Practica2/Practica-2---Allegro/loadRanking.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/loadRanking.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/loadRanking.c$(DependSuffix): loadRanking.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/loadRanking.c$(ObjectSuffix) -MF$(IntermediateDirectory)/loadRanking.c$(DependSuffix) -MM "loadRanking.c"
 
@@ -115,7 +115,7 @@ $(IntermediateDirectory)/loadRanking.c$(PreprocessSuffix): loadRanking.c
 	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/loadRanking.c$(PreprocessSuffix) "loadRanking.c"
 
 $(IntermediateDirectory)/grafics.c$(ObjectSuffix): grafics.c $(IntermediateDirectory)/grafics.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/_carlos/cole/allegro/Projecte_Base_Windows/Practica2/grafics.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/grafics.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/_carlos/cole/allegro/Projecte_Base_Windows/Practica2/Practica-2---Allegro/grafics.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/grafics.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/grafics.c$(DependSuffix): grafics.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/grafics.c$(ObjectSuffix) -MF$(IntermediateDirectory)/grafics.c$(DependSuffix) -MM "grafics.c"
 
@@ -123,7 +123,7 @@ $(IntermediateDirectory)/grafics.c$(PreprocessSuffix): grafics.c
 	@$(CC) $(CFLAGS) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/grafics.c$(PreprocessSuffix) "grafics.c"
 
 $(IntermediateDirectory)/logic.c$(ObjectSuffix): logic.c $(IntermediateDirectory)/logic.c$(DependSuffix)
-	$(CC) $(SourceSwitch) "C:/_carlos/cole/allegro/Projecte_Base_Windows/Practica2/logic.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/logic.c$(ObjectSuffix) $(IncludePath)
+	$(CC) $(SourceSwitch) "C:/_carlos/cole/allegro/Projecte_Base_Windows/Practica2/Practica-2---Allegro/logic.c" $(CFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/logic.c$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/logic.c$(DependSuffix): logic.c
 	@$(CC) $(CFLAGS) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/logic.c$(ObjectSuffix) -MF$(IntermediateDirectory)/logic.c$(DependSuffix) -MM "logic.c"
 

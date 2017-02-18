@@ -9,14 +9,6 @@
 #include "grafics.h"
 #include "logic.h"
 
-#define COTAX 64
-#define COTAY 66.666666666666
-#define MARGEX COTAX/2
-#define MARGEY COTAY/2
-#define COLUMNES 12
-#define FILES 10
-#define TAMANY 25
-
 	
 	
 int main(void){
