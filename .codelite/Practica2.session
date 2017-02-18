@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session Name="C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2\Practica2.workspace">
+  <int Value="5" Name="m_selectedTab"/>
+  <wxString Value="C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2\Practica2.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2\loadRanking.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2\main.c" Name="FileName"/>
+      <int Value="99" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2\logic.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2\logic.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2\grafics.c" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds">
+        <IntVectorItem Value="3"/>
+        <IntVectorItem Value="23"/>
+        <IntVectorItem Value="30"/>
+        <IntVectorItem Value="37"/>
+        <IntVectorItem Value="61"/>
+      </IntVector>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2\grafics.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\_carlos\cole\allegro\Projecte_Base_Windows\Practica2\tipus.h" Name="FileName"/>
+      <int Value="11" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
+  <SerializedObject Name="m_breakpoints">
+    <long Value="0" Name="Count"/>
+  </SerializedObject>
+</Session>
